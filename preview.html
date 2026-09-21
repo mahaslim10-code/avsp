@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVSP | Textile & Garment Production Partner in Tunisia</title>
+<meta name="description" content="AVSP supports international fashion brands with product development, fabric sourcing, technical development, sampling, production coordination and local coordination in Tunisia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#122d62;
+  --navy2:#0b214a;
+  --gold:#d6a43b;
+  --gold2:#e8c36d;
+  --ink:#18243a;
+  --muted:#687386;
+  --cream:#fbfaf7;
+  --line:#e7e5df;
+  --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"DM Sans",Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+
+
+
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(18,45,98,.08)}
+.nav{height:82px;display:flex;align-items:center;justify-content:space-between;position:relative}
+.logo{height:68px;width:auto;object-fit:contain}
+.navlinks{display:flex;gap:28px;align-items:center;font-size:14px;font-weight:600;color:#263653}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:980px){.navlinks{padding-top:28px}}
+@media(max-width:600px){}
+
+.navlinks a:hover{color:var(--gold)}
+.cta{background:var(--navy);color:#fff!important;padding:12px 20px;border-radius:4px}
+.menu{display:none;border:0;background:none;font-size:27px;color:var(--navy)}
+.hero{position:relative;min-height:650px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(90deg,rgba(7,25,55,.92) 0%,rgba(7,25,55,.72) 42%,rgba(7,25,55,.2) 100%),url("avsp-building.jpg") center/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:8px;background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold))}
+.hero-content{position:relative;z-index:2;color:#fff;max-width:720px;padding:90px 0}
+.eyebrow{letter-spacing:3px;text-transform:uppercase;font-size:12px;font-weight:700;color:var(--gold2);margin-bottom:18px}
+h1{font-family:"Playfair Display",serif;font-size:clamp(48px,6vw,78px);line-height:1.02;margin:0 0 22px;font-weight:600}
+.hero p{font-size:18px;max-width:640px;color:rgba(255,255,255,.9);margin:0 0 34px}
+.buttons{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 24px;border-radius:3px;font-weight:700;font-size:14px}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-outline{border:1px solid rgba(255,255,255,.65);color:#fff}
+section{padding:100px 0}
+.section-head{max-width:720px;margin-bottom:48px}
+.kicker{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:10px}
+h2{font-family:"Playfair Display",serif;font-size:clamp(35px,4vw,52px);line-height:1.12;margin:0 0 15px;color:var(--navy)}
+.lead{color:var(--muted);font-size:17px}
+.about{background:var(--cream)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}
+.about-image{border-radius:3px;overflow:hidden;box-shadow:0 22px 55px rgba(18,45,98,.14)}
+.about-image img{width:100%;display:block}
+.about-image.founder-photo{position:relative;background:#eee}
+.about-image.founder-photo img{width:100%;height:auto;display:block;object-fit:contain;object-position:center}
+.founder-badge{position:absolute;left:22px;bottom:22px;background:rgba(255,255,255,.95);padding:15px 20px;border-left:3px solid var(--gold);box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.founder-badge span{display:block;font-size:10px;letter-spacing:2px;color:var(--gold);font-weight:800}
+.founder-badge strong{display:block;color:var(--navy);font-family:"Playfair Display",serif;font-size:21px;margin-top:3px}
+
+.about-copy p{color:var(--muted);font-size:16px}
+.signature{border-left:3px solid var(--gold);padding-left:18px;margin-top:30px}
+.signature strong{display:block;color:var(--navy);font-size:18px}
+.signature span{font-size:13px;color:var(--muted)}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid var(--line);padding:28px 23px;min-height:250px;transition:.25s;background:#fff}
+.card:hover{transform:translateY(-5px);box-shadow:0 16px 35px rgba(18,45,98,.1);border-color:rgba(214,164,59,.5)}
+.num{font-size:12px;color:var(--gold);font-weight:800;letter-spacing:1px}
+.card h3{font-size:19px;color:var(--navy);margin:18px 0 10px;line-height:1.25}
+.card p{font-size:14px;color:var(--muted);margin:0}
+.process{background:var(--navy);color:#fff}
+.process h2{color:#fff}.process .section-head .lead{color:rgba(255,255,255,.72)}
+.process-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.step{border-top:1px solid rgba(255,255,255,.25);padding-top:20px}
+.step span{font-size:12px;color:var(--gold2);font-weight:800}
+.step h3{font-size:17px;margin:10px 0 6px}
+.step p{font-size:13px;color:rgba(255,255,255,.65);margin:0}
+.why{background:var(--cream)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.why-item{background:#fff;padding:30px;border:1px solid var(--line)}
+.why-item h3{color:var(--navy);margin:0 0 7px}
+.why-item p{color:var(--muted);margin:0;font-size:14px}
+.facility{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.facility img{width:100%;height:390px;object-fit:cover}
+.facility .text{display:flex;flex-direction:column;justify-content:center;padding:15px}
+.contact{background:linear-gradient(135deg,var(--navy2),var(--navy));color:#fff}
+.contact h2{color:#fff}.contact .lead{color:rgba(255,255,255,.75)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}
+.contact-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);padding:32px}
+.contact-row{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.contact-row:last-child{border:0}
+.contact-row strong{display:block}.contact-row span{color:rgba(255,255,255,.68);font-size:14px}
+form{display:grid;gap:13px}
+input,textarea,select{width:100%;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;padding:14px 15px;border-radius:2px;font:inherit;outline:none}
+input::placeholder,textarea::placeholder{color:rgba(255,255,255,.5)}
+textarea{min-height:130px;resize:vertical}
+select{
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  color:#fff !important;
+  background-color:rgba(255,255,255,.08) !important;
+  background-image:linear-gradient(45deg,transparent 50%,rgba(255,255,255,.7) 50%),linear-gradient(135deg,rgba(255,255,255,.7) 50%,transparent 50%);
+  background-position:calc(100% - 19px) 50%,calc(100% - 13px) 50%;
+  background-size:6px 6px,6px 6px;
+  background-repeat:no-repeat;
+  padding-right:42px;
+}
+select:focus{
+  border-color:var(--gold);
+  background-color:rgba(255,255,255,.12) !important;
+}
+select option{
+  color:var(--ink);
+  background:#fff;
+}
+select option:checked{
+  color:#fff;
+  background:var(--navy);
+}
+
+footer{background:#071a38;color:rgba(255,255,255,.55);font-size:12px;padding:24px 0}
+footer .container{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:980px){
+ .navlinks{display:none}.menu{display:block}
+ .services-grid{grid-template-columns:repeat(2,1fr)}
+ .process-grid{grid-template-columns:repeat(3,1fr);row-gap:35px}
+ .about-grid,.contact-grid,.facility{grid-template-columns:1fr;gap:40px}
+}
+@media(max-width:600px){
+ section{padding:70px 0}.nav{height:72px}.logo{height:54px}
+ .hero{min-height:610px}.hero-content{padding:70px 0}
+ h1{font-size:47px}.hero p{font-size:16px}
+ .services-grid,.why-grid{grid-template-columns:1fr}
+ .process-grid{grid-template-columns:1fr 1fr}
+ .facility img{height:280px}
+ footer .container{flex-direction:column}
+}
+
+
+@media(max-width:980px){
+ 
+}
+@media(max-width:600px){
+ 
+}
+
+
+
+
+
+
+
+
+
+html[dir="rtl"] body{font-family:"Noto Kufi Arabic","DM Sans",Arial,sans-serif}
+html[dir="rtl"] .hero-content,
+html[dir="rtl"] .about-copy,
+html[dir="rtl"] .section-head,
+html[dir="rtl"] .contact-grid,
+html[dir="rtl"] .why-item,
+html[dir="rtl"] .card,
+html[dir="rtl"] .step,
+html[dir="rtl"] .facility .text,
+html[dir="rtl"] .form-card,
+html[dir="rtl"] .contact-info{text-align:right}
+html[dir="rtl"] .about-grid,
+html[dir="rtl"] .contact-grid,
+html[dir="rtl"] .facility{direction:rtl}
+html[dir="rtl"] .signature{border-left:0;border-right:3px solid var(--gold);padding-left:0;padding-right:18px}
+html[dir="rtl"] .founder-badge{left:auto;right:22px;border-left:0;border-right:3px solid var(--gold)}
+html[dir="rtl"] 
+html[dir="rtl"] .topbar .container,
+html[dir="rtl"] footer .container{direction:rtl}
+
+html[dir="ltr"] body{direction:ltr}
+html[dir="ltr"] .hero-content,
+html[dir="ltr"] .about-copy,
+html[dir="ltr"] .section-head,
+html[dir="ltr"] .contact-grid,
+html[dir="ltr"] .why-item,
+html[dir="ltr"] .card,
+html[dir="ltr"] .step,
+html[dir="ltr"] .facility .text,
+html[dir="ltr"] .form-card,
+html[dir="ltr"] .contact-info{text-align:left}
+html[dir="ltr"] .about-grid,
+html[dir="ltr"] .contact-grid,
+html[dir="ltr"] .facility{direction:ltr}
+html[dir="ltr"] .signature{border-left:3px solid var(--gold);border-right:0;padding-left:18px;padding-right:0}
+html[dir="ltr"] .founder-badge{left:22px;right:auto;border-left:3px solid var(--gold);border-right:0}
+html[dir="ltr"] 
+html[dir="ltr"] .topbar .container,
+html[dir="ltr"] footer .container{direction:ltr}
+
+@media(max-width:980px){
+ 
+}
+@media(max-width:600px){
+ 
+ 
+}
+
+
+html[dir="ltr"] 
+html[dir="ltr"] 
+html[dir="rtl"] 
+html[dir="rtl"] 
+html[dir="rtl"] 
+@media(max-width:700px){
+ 
+ 
+ 
+ 
+}
+
+
+
+.topbar{background:var(--navy2);color:#fff;font-size:13px}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:8px 0;min-height:38px}
+.topbar-info{display:flex;align-items:center;gap:24px}
+.language-switcher{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:3px 7px;flex:0 0 auto;direction:ltr}
+.language-switcher button{border:0;background:transparent;color:rgba(255,255,255,.75);font:700 10px "DM Sans",Arial,sans-serif;padding:3px 5px;cursor:pointer}
+.language-switcher button.active{color:#fff;background:var(--gold);border-radius:11px}
+
+html[dir="ltr"] .topbar-inner{direction:ltr}
+html[dir="ltr"] .topbar-info{direction:ltr}
+html[dir="rtl"] .topbar-inner{direction:rtl}
+html[dir="rtl"] .topbar-info{direction:rtl}
+
+@media(max-width:700px){
+ .topbar-inner{padding:6px 0;gap:10px}
+ .topbar-info{gap:10px;font-size:10px}
+ .language-switcher{padding:2px 5px}
+ .language-switcher button{font-size:9px;padding:2px 4px}
+}
+
+</style>
+</head>
+<body>
+<div class="topbar">
+ <div class="container topbar-inner">
+  <div class="language-switcher" aria-label="Language selector">
+   <button type="button" data-set-lang="en" class="active">EN</button>
+   <span>|</span>
+   <button type="button" data-set-lang="fr">FR</button>
+   <span>|</span>
+   <button type="button" data-set-lang="ar">AR</button>
+  </div>
+  <div class="topbar-info">
+   <span data-i18n="topline">Textile & Garment Production Coordination</span>
+   <span data-i18n="tunisia">Tunisia</span>
+  </div>
+ </div>
+</div>
+
+<header>
+ <div class="container nav">
+ <div class="language-switcher" aria-label="Language selector">
+ <button type="button" data-set-lang="en" class="active">EN</button>
+ <span>|</span>
+ <button type="button" data-set-lang="fr">FR</button>
+ <span>|</span>
+ <button type="button" data-set-lang="ar">AR</button>
+</div>
+ 
+  <a href="#home"><img class="logo" src="avsp-logo.png" alt="AVSP"></a>
+  <nav class="navlinks">
+   <a href="#about" data-i18n="nav_about">About</a>
+   <a href="#services" data-i18n="nav_services">Services</a>
+   <a href="#process" data-i18n="nav_process">Our Process</a>
+   <a href="#facilities" data-i18n="nav_facilities">Facilities</a>
+   <a href="#contact" class="cta" data-i18n="nav_contact">Contact Us</a>
+  </nav>
+  <button class="menu" onclick="toggleMenu()">☰</button>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="container hero-content">
+  <div class="eyebrow" data-i18n="hero_eyebrow">AVSP • Tunisia</div>
+  <h1 data-i18n="hero_title">Your Product.<br>Our Expertise.</h1>
+  <p data-i18n="hero_text">From concept to production, AVSP supports international fashion brands with product development, sourcing, sampling and production coordination in Tunisia.</p>
+  <div class="buttons">
+   <a class="btn btn-gold" href="#services" data-i18n="hero_btn_services">Explore Our Services</a>
+   <a class="btn btn-outline" href="#contact" data-i18n="hero_btn_contact">Contact AVSP</a>
+  </div>
+ </div>
+</section>
+
+<section class="about" id="about">
+ <div class="container about-grid">
+  <div class="about-image founder-photo">
+   <img src="salma-garrouch.jpg" alt="Salma Garrouch, Founder and Owner of AVSP">
+   <div class="founder-badge"><span data-i18n="founder_badge">FOUNDER & OWNER</span><strong>Salma Garrouch</strong></div>
+  </div>
+  <div class="about-copy">
+   <div class="kicker" data-i18n="about_kicker">Meet the Founder</div>
+   <h2 data-i18n="about_title">Experience built in the textile industry.</h2>
+   <p><strong data-i18n="salma_role">Salma Garrouch — Founder & Managing Director of AVSP</strong></p>
+   <p data-i18n="bio1">Salma Garrouch’s professional career has been built within the textile industry, with extensive experience in garment manufacturing, workwear, and textile customization, including screen printing, embroidery, and various other personalization techniques.</p>
+   <p data-i18n="bio2">As a Sales Manager, Salma worked closely with professional clients to understand their requirements and develop customized workwear and textile-marking projects. Her responsibilities included product development, material and accessory selection, order placement, and consistent follow-up throughout the process.</p>
+   <p data-i18n="bio3">She also managed a textile platform working with <strong>more than 25 subcontractors</strong>, developing strong expertise in supplier coordination, order placement, production follow-up, and the management of multiple production partners.</p>
+   <p data-i18n="bio4">Through this experience, Salma gained hands-on knowledge of the complete production process — from coordinating with workshops and placing orders to monitoring manufacturing, quality control, and delivery deadlines.</p>
+   <p data-i18n="bio5">Her expertise also extends to <strong>quality management and RMQ (Quality Management Responsibility)</strong>. She has supported and certified several companies according to recognized standards and frameworks, including <strong>OEKO-TEX and ISO 9001</strong>. This experience allows her to integrate quality requirements, traceability, and continuous improvement into the textile projects she manages.</p>
+   <p data-i18n="bio6">Over the years, Salma has developed a strong understanding of both professional client expectations and the realities of textile production, with particular attention to quality, detail, order placement, responsiveness, and customer satisfaction.</p>
+   <p data-i18n="bio7">This hands-on experience led her to establish <strong>AVSP</strong>, with the aim of providing brands and companies with reliable, personalized support for their textile projects, production orders, and textile customization needs.</p>
+   <p data-i18n="bio8">Today, Salma’s vision is to build <strong>long-term partnerships based on trust, responsiveness, transparency, and Tunisian textile expertise.</strong></p>
+   <div class="signature">
+    <strong>Salma Garrouch</strong>
+    <span data-i18n="signature_role">Founder & Managing Director, AVSP</span>
+   </div>
+  </div>
+  </div>
+ </div>
+</section>
+
+<section style="padding:55px 0;background:#fff">
+ <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:30px;border:1px solid var(--line);padding:30px 34px">
+  <div>
+   <div class="kicker" data-i18n="leadership_kicker">Leadership</div>
+   <h3 data-i18n="leadership_title" style="margin:0;color:var(--navy);font-family:'Playfair Display',serif;font-size:29px">Led by Salma Garrouch</h3>
+   <p data-i18n="leadership_text" style="margin:6px 0 0;color:var(--muted)">Building trusted connections between brands, suppliers and Tunisian manufacturing partners.</p>
+  </div>
+  <a class="btn" data-i18n="leadership_btn" style="background:var(--navy);color:#fff;white-space:nowrap" href="#contact">Work With AVSP</a>
+ </div>
+</section>
+
+<section style="padding:70px 0;background:#fbfaf7">
+ <div class="container">
+  <div class="section-head">
+   <div class="kicker">Experience & Expertise</div>
+   <h2 data-i18n="why_title">Built on real textile industry experience.</h2>
+   <p class="lead" data-i18n="why_lead">Salma’s background combines commercial expertise, production coordination and quality management.</p>
+  </div>
+  <div class="why-grid">
+   <div class="why-item"><h3 data-i18n="w1t">25+ Subcontractors</h3><p data-i18n="w1p">Experience coordinating a network of more than 25 textile production partners.</p></div>
+   <div class="why-item"><h3 data-i18n="w2t">Production Coordination</h3><p data-i18n="w2p">Hands-on experience with order placement, workshop coordination, manufacturing follow-up and deadlines.</p></div>
+   <div class="why-item"><h3 data-i18n="w3t">Quality Management</h3><p data-i18n="w3p">Training and experience supporting companies with quality management, traceability and continuous improvement.</p></div>
+   <div class="why-item"><h3 data-i18n="w4t">OEKO-TEX & ISO 9001</h3><p data-i18n="w4p">Experience supporting and certifying companies according to recognized quality standards and frameworks.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="container">
+  <div class="section-head">
+   <div class="kicker" data-i18n="services_kicker">What We Do</div>
+   <h2 data-i18n="services_title">Our Services</h2>
+   <p class="lead" data-i18n="services_lead">A complete support structure for brands developing and producing garments in Tunisia.</p>
+  </div>
+  <div class="services-grid">
+   <article class="card"><div class="num">01</div><h3 data-i18n="s1t">Product Development</h3><p data-i18n="s1p">From the first idea to a production-ready product, we support brands throughout the development process.</p></article>
+   <article class="card"><div class="num">02</div><h3 data-i18n="s2t">Fabric Sourcing</h3><p data-i18n="s2p">We identify and source suitable fabrics and materials according to quality, composition, performance, price and production requirements.</p></article>
+   <article class="card"><div class="num">03</div><h3 data-i18n="s3t">Trims & Accessories Sourcing</h3><p data-i18n="s3p">Buttons, zippers, labels, embroidery, prints, badges and other garment components.</p></article>
+   <article class="card"><div class="num">04</div><h3 data-i18n="s4t">Pattern & Technical Development</h3><p data-i18n="s4p">Pattern making, grading, technical adjustments and preparation of production-ready specifications.</p></article>
+   <article class="card"><div class="num">05</div><h3 data-i18n="s5t">Sampling & Prototyping</h3><p data-i18n="s5p">Development of prototypes, fit samples and pre-production samples to validate the product before manufacturing.</p></article>
+   <article class="card"><div class="num">06</div><h3 data-i18n="s6t">Production Coordination</h3><p data-i18n="s6p">We coordinate with manufacturing partners and follow each production stage from order confirmation to completion.</p></article>
+   <article class="card"><div class="num">07</div><h3 data-i18n="s7t">Quality & Production Follow-Up</h3><p data-i18n="s7p">We follow product requirements and production progress to help maintain consistency with agreed specifications.</p></article>
+   <article class="card"><div class="num">08</div><h3 data-i18n="s8t">Logistics & Local Coordination</h3><p data-i18n="s8p">We facilitate communication and coordination between international brands, suppliers and Tunisian manufacturing partners.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="process" id="process">
+ <div class="container">
+  <div class="section-head">
+   <div class="kicker" data-i18n="process_kicker">How We Work</div>
+   <h2 data-i18n="process_title">From idea to production.</h2>
+   <p class="lead" data-i18n="process_lead">A structured process designed to keep product development clear, coordinated and efficient.</p>
+  </div>
+  <div class="process-grid">
+   <div class="step"><span>01</span><h3 data-i18n="p1t">Understand</h3><p data-i18n="p1p">Product requirements, targets and specifications.</p></div>
+   <div class="step"><span>02</span><h3 data-i18n="p2t">Source</h3><p data-i18n="p2p">Fabrics, trims, suppliers and partners.</p></div>
+   <div class="step"><span>03</span><h3 data-i18n="p3t">Develop</h3><p data-i18n="p3p">Patterns, technical details and prototypes.</p></div>
+   <div class="step"><span>04</span><h3 data-i18n="p4t">Sample</h3><p data-i18n="p4p">Fit and pre-production sample validation.</p></div>
+   <div class="step"><span>05</span><h3 data-i18n="p5t">Produce</h3><p data-i18n="p5p">Production coordination and follow-up.</p></div>
+   <div class="step"><span>06</span><h3 data-i18n="p6t">Deliver</h3><p data-i18n="p6p">Final coordination and logistics support.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="why">
+ <div class="container">
+  <div class="section-head">
+   <div class="kicker" data-i18n="why_kicker">Why AVSP</div>
+   <h2>A reliable bridge between brands and production.</h2>
+  </div>
+  <div class="why-grid">
+   <div class="why-item"><h3>Local Expertise</h3><p>Knowledge of the Tunisian textile and manufacturing ecosystem and its local partners.</p></div>
+   <div class="why-item"><h3>End-to-End Support</h3><p>Support across product development, sourcing, technical work, sampling and production coordination.</p></div>
+   <div class="why-item"><h3>International Coordination</h3><p>Clear communication between international brands, suppliers and Tunisian manufacturing partners.</p></div>
+   <div class="why-item"><h3>Attention to Detail</h3><p>Focused follow-up on materials, specifications, samples and production requirements.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="facilities">
+ <div class="container">
+  <div class="facility">
+   <img src="avsp-meeting-room.jpg" alt="AVSP meeting room">
+   <div class="text">
+    <div class="kicker" data-i18n="fac_kicker">Our Facilities</div>
+    <h2 data-i18n="fac_title">A professional environment for collaboration.</h2>
+    <p class="lead" data-i18n="fac_p1">Our facilities provide a professional setting for meetings, product discussions, development work and coordination with clients and partners.</p>
+    <p class="lead" data-i18n="fac_p2">AVSP combines local presence with a structured approach to international production coordination.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="container contact-grid">
+  <div>
+   <div class="kicker" data-i18n="contact_kicker">Start a Conversation</div>
+   <h2 data-i18n="contact_title">Let’s develop your next product.</h2>
+   <p class="lead" data-i18n="contact_lead">Whether you are developing a new collection, looking for fabrics and trims, or seeking production coordination in Tunisia, AVSP is ready to discuss your requirements.</p>
+   <div class="contact-card" style="margin-top:28px">
+    <div class="contact-row"><div>◉</div><div><strong>Salma Garrouch</strong><span data-i18n="owner_role">Founder & Owner</span></div></div>
+    <div class="contact-row"><div>☎</div><div><strong>+216 24 484 842</strong><span data-i18n="phone_label">Phone / WhatsApp</span></div></div>
+    <div class="contact-row"><div>⌖</div><div><strong data-i18n="location_title">AVSP — Tunisia</strong><span><a href="https://maps.app.goo.gl/a668aKZaj8SPw5wu7?g_st=ic" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline" data-i18n="location_link">View our location on Google Maps</a></span></div></div>
+   </div>
+  </div>
+  <div class="contact-card">
+   <form onsubmit="sendInquiry(event)">
+    <input type="text" placeholder="Name" data-ph="name" required>
+    <input type="text" placeholder="Company" data-ph="company">
+    <input type="email" placeholder="Email" data-ph="email" required>
+    <input type="tel" placeholder="Phone" data-ph="phone">
+    <select required>
+     <option value="" selected disabled data-i18n="form_service_placeholder">What are you looking for?</option>
+     <option>Product Development</option>
+     <option>Fabric Sourcing</option>
+     <option>Trims & Accessories</option>
+     <option>Pattern & Technical Development</option>
+     <option>Sampling & Prototyping</option>
+     <option>Production Coordination</option>
+     <option>Logistics & Local Coordination</option>
+     <option>Other</option>
+    </select>
+    <textarea placeholder="Tell us about your project..." data-ph="message" required></textarea>
+    <button class="btn btn-gold" type="submit" style="border:0;cursor:pointer">Send Inquiry on WhatsApp</button>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="container">
+  <div>© <span id="year"></span> AVSP. <span data-i18n="footer_rights">All rights reserved.</span></div>
+  <div><span data-i18n="footer_services">Product Development • Sourcing • Sampling • Production Coordination</span></div>
+ </div>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+function toggleMenu(){
+ const nav=document.querySelector(".navlinks");
+ nav.style.display = nav.style.display==="flex" ? "none" : "flex";
+ nav.style.position="absolute"; nav.style.top="72px"; nav.style.left="0"; nav.style.right="0";
+ nav.style.background="#fff"; nav.style.padding="20px"; nav.style.flexDirection="column"; nav.style.boxShadow="0 12px 25px rgba(0,0,0,.08)";
+}
+function sendInquiry(event){
+ event.preventDefault();
+ const form = event.target;
+ const name = form.querySelector('input[placeholder="Name" data-ph="name"]').value.trim();
+ const company = form.querySelector('input[placeholder="Company" data-ph="company"]').value.trim();
+ const email = form.querySelector('input[type="email"]').value.trim();
+ const phone = form.querySelector('input[type="tel"]').value.trim();
+ const service = form.querySelector('select').value;
+ const message = form.querySelector('textarea').value.trim();
+ const text =
+   "Hello AVSP,%0A%0A" +
+   "I would like to make an inquiry.%0A%0A" +
+   "Name: " + encodeURIComponent(name) + "%0A" +
+   "Company: " + encodeURIComponent(company || "N/A") + "%0A" +
+   "Email: " + encodeURIComponent(email) + "%0A" +
+   "Phone: " + encodeURIComponent(phone || "N/A") + "%0A" +
+   "Service: " + encodeURIComponent(service) + "%0A" +
+   "Project details: " + encodeURIComponent(message);
+ window.open("https://wa.me/21624484842?text=" + text, "_blank");
+}
+
+const translations = {
+ en: {
+  topline:"Textile & Garment Production Coordination", tunisia:"Tunisia",
+  nav_about:"About",nav_services:"Services",nav_process:"Our Process",nav_facilities:"Facilities",nav_contact:"Contact Us",
+  founder_badge:"FOUNDER & OWNER",legacy1t:"Local Expertise",legacy1p:"Knowledge of the Tunisian textile and manufacturing ecosystem and its local partners.",legacy2t:"End-to-End Support",legacy2p:"Support across product development, sourcing, technical work, sampling and production coordination.",legacy3t:"International Coordination",legacy3p:"Clear communication between international brands, suppliers and Tunisian manufacturing partners.",legacy4t:"Attention to Detail",legacy4p:"Focused follow-up on materials, specifications, samples and production requirements.",hero_eyebrow:"AVSP • Tunisia",hero_title:"Your Product.<br>Our Expertise.",
+  hero_text:"From concept to production, AVSP supports international fashion brands with product development, sourcing, sampling and production coordination in Tunisia.",
+  hero_btn_services:"Explore Our Services",hero_btn_contact:"Contact AVSP",
+  about_kicker:"Meet the Founder",about_title:"Experience built in the textile industry.",
+  salma_role:"Salma Garrouch — Founder & Managing Director of AVSP",
+  bio1:"Salma Garrouch’s professional career has been built within the textile industry, with extensive experience in garment manufacturing, workwear, and textile customization, including screen printing, embroidery, and various other personalization techniques.",
+  bio2:"As a Sales Manager, Salma worked closely with professional clients to understand their requirements and develop customized workwear and textile-marking projects. Her responsibilities included product development, material and accessory selection, order placement, and consistent follow-up throughout the process.",
+  bio3:"She also managed a textile platform working with <strong>more than 25 subcontractors</strong>, developing strong expertise in supplier coordination, order placement, production follow-up, and the management of multiple production partners.",
+  bio4:"Through this experience, Salma gained hands-on knowledge of the complete production process — from coordinating with workshops and placing orders to monitoring manufacturing, quality control, and delivery deadlines.",
+  bio5:"Her expertise also extends to <strong>quality management and RMQ (Quality Management Responsibility)</strong>. She has supported and certified several companies according to recognized standards and frameworks, including <strong>OEKO-TEX and ISO 9001</strong>. This experience allows her to integrate quality requirements, traceability, and continuous improvement into the textile projects she manages.",
+  bio6:"Over the years, Salma has developed a strong understanding of both professional client expectations and the realities of textile production, with particular attention to quality, detail, order placement, responsiveness, and customer satisfaction.",
+  bio7:"This hands-on experience led her to establish <strong>AVSP</strong>, with the aim of providing brands and companies with reliable, personalized support for their textile projects, production orders, and textile customization needs.",
+  bio8:"Today, Salma’s vision is to build <strong>long-term partnerships based on trust, responsiveness, transparency, and Tunisian textile expertise.</strong>",
+  signature_role:"Founder & Managing Director, AVSP",
+  leadership_kicker:"Leadership",leadership_title:"Led by Salma Garrouch",
+  leadership_text:"Building trusted connections between brands, suppliers and Tunisian manufacturing partners.",leadership_btn:"Work With AVSP",
+  services_kicker:"What We Do",services_title:"Our Services",services_lead:"A complete support structure for brands developing and producing garments in Tunisia.",
+  s1t:"Product Development",s1p:"From the first idea to a production-ready product, we support brands throughout the development process.",
+  s2t:"Fabric Sourcing",s2p:"We identify and source suitable fabrics and materials according to quality, composition, performance, price and production requirements.",
+  s3t:"Trims & Accessories Sourcing",s3p:"Buttons, zippers, labels, embroidery, prints, badges and other garment components.",
+  s4t:"Pattern & Technical Development",s4p:"Pattern making, grading, technical adjustments and preparation of production-ready specifications.",
+  s5t:"Sampling & Prototyping",s5p:"Development of prototypes, fit samples and pre-production samples to validate the product before manufacturing.",
+  s6t:"Production Coordination",s6p:"We coordinate with manufacturing partners and follow each production stage from order confirmation to completion.",
+  s7t:"Quality & Production Follow-Up",s7p:"We follow product requirements and production progress to help maintain consistency with agreed specifications.",
+  s8t:"Logistics & Local Coordination",s8p:"We facilitate communication and coordination between international brands, suppliers and Tunisian manufacturing partners.",
+  process_kicker:"How We Work",process_title:"From idea to production.",process_lead:"A structured process designed to keep product development clear, coordinated and efficient.",
+  p1t:"Understand",p1p:"Product requirements, targets and specifications.",p2t:"Source",p2p:"Fabrics, trims, suppliers and partners.",
+  p3t:"Develop",p3p:"Patterns, technical details and prototypes.",p4t:"Sample",p4p:"Fit and pre-production sample validation.",
+  p5t:"Produce",p5p:"Production coordination and follow-up.",p6t:"Deliver",p6p:"Final coordination and logistics support.",
+  why_kicker:"Why AVSP",why_title:"Built on real textile industry experience.",why_lead:"Salma’s background combines commercial expertise, production coordination and quality management.",
+  w1t:"25+ Subcontractors",w1p:"Experience coordinating a network of more than 25 textile production partners.",
+  w2t:"Production Coordination",w2p:"Hands-on experience with order placement, workshop coordination, manufacturing follow-up and deadlines.",
+  w3t:"Quality Management",w3p:"Training and experience supporting companies with quality management, traceability and continuous improvement.",
+  w4t:"OEKO-TEX & ISO 9001",w4p:"Experience supporting and certifying companies according to recognized quality standards and frameworks.",
+  fac_kicker:"Our Facilities",fac_title:"A professional environment for collaboration.",
+  fac_p1:"Our facilities provide a professional setting for meetings, product discussions, development work and coordination with clients and partners.",
+  fac_p2:"AVSP combines local presence with a structured approach to international production coordination.",
+  contact_kicker:"Start a Conversation",contact_title:"Let’s develop your next product.",
+  contact_lead:"Whether you are developing a new collection, looking for fabrics and trims, or seeking production coordination in Tunisia, AVSP is ready to discuss your requirements.",
+  owner_role:"Founder & Owner",phone_label:"Phone / WhatsApp",location_title:"AVSP — Tunisia",location_link:"View our location on Google Maps",
+  form_service_placeholder:"What are you looking for?",footer_rights:"All rights reserved.",footer_services:"Product Development • Sourcing • Sampling • Production Coordination",
+  name:"Name",company:"Company",email:"Email",phone:"Phone",message:"Tell us about your project...",send:"Send Inquiry on WhatsApp"
+ },
+ fr: {
+  topline:"Coordination de production textile et confection",tunisia:"Tunisie",
+  nav_about:"À propos",nav_services:"Services",nav_process:"Notre processus",nav_facilities:"Nos locaux",nav_contact:"Contact",
+  founder_badge:"FONDATRICE & DIRIGEANTE",legacy1t:"Expertise locale",legacy1p:"Connaissance de l’écosystème textile et industriel tunisien et de ses partenaires locaux.",legacy2t:"Accompagnement de A à Z",legacy2p:"Accompagnement du développement produit, du sourcing, du travail technique, des échantillons et de la coordination de production.",legacy3t:"Coordination internationale",legacy3p:"Communication claire entre les marques internationales, les fournisseurs et les partenaires de fabrication tunisiens.",legacy4t:"Attention aux détails",legacy4p:"Suivi précis des matières, spécifications, échantillons et exigences de production.",hero_eyebrow:"AVSP • Tunisie",hero_title:"Votre produit.<br>Notre expertise.",
+  hero_text:"De l’idée à la production, AVSP accompagne les marques de mode internationales dans le développement produit, le sourcing, l’échantillonnage et la coordination de production en Tunisie.",
+  hero_btn_services:"Découvrir nos services",hero_btn_contact:"Contacter AVSP",
+  about_kicker:"La fondatrice",about_title:"Une expérience construite dans l’industrie textile.",
+  salma_role:"Salma Garrouch — Fondatrice & Directrice Générale d’AVSP",
+  bio1:"Le parcours professionnel de Salma Garrouch s’est construit dans le secteur textile, avec une expérience approfondie dans la fabrication de vêtements, notamment les vêtements de travail, ainsi que dans le marquage et la personnalisation textile : sérigraphie, broderie et différentes techniques de personnalisation.",
+  bio2:"En tant que Responsable Commerciale, Salma a accompagné des clients professionnels dans leurs projets de vêtements de travail personnalisés et de marquage textile. Elle assurait la compréhension des besoins, le développement des produits, le choix des matières et accessoires, le placement des commandes ainsi que leur suivi.",
+  bio3:"Elle a également géré une plateforme textile réunissant <strong>plus de 25 sous-traitants</strong>, développant une solide expertise en coordination des fournisseurs, placement des commandes, suivi de production et gestion de plusieurs partenaires de fabrication.",
+  bio4:"Cette expérience lui a permis d’acquérir une connaissance concrète de l’ensemble du processus de production : coordination avec les ateliers, placement et suivi des commandes, suivi de fabrication, contrôle qualité et respect des délais.",
+  bio5:"Son expertise comprend également le <strong>management de la qualité et la responsabilité RMQ</strong>. Elle a accompagné et certifié plusieurs entreprises selon des référentiels reconnus, notamment <strong>OEKO-TEX et ISO 9001</strong>. Cette expérience lui permet d’intégrer les exigences qualité, la traçabilité et l’amélioration continue dans les projets textiles qu’elle accompagne.",
+  bio6:"Au fil des années, Salma a développé une compréhension approfondie des attentes des clients professionnels et des réalités de la production textile, avec une attention particulière portée à la qualité, aux détails, au placement des commandes, à la réactivité et à la satisfaction client.",
+  bio7:"C’est cette expérience de terrain qui l’a conduite à créer <strong>AVSP</strong>, afin de proposer aux marques et entreprises un accompagnement fiable et personnalisé dans leurs projets textiles, leurs commandes de production et leurs besoins en marquage textile.",
+  bio8:"Aujourd’hui, sa vision est de construire <strong>des partenariats durables fondés sur la confiance, la réactivité, la transparence et le savoir-faire textile tunisien.</strong>",
+  signature_role:"Fondatrice & Directrice Générale, AVSP",
+  leadership_kicker:"Direction",leadership_title:"AVSP dirigée par Salma Garrouch",
+  leadership_text:"Créer des relations de confiance entre les marques, les fournisseurs et les partenaires de fabrication tunisiens.",leadership_btn:"Travailler avec AVSP",
+  services_kicker:"Notre savoir-faire",services_title:"Nos services",services_lead:"Un accompagnement complet pour les marques qui développent et produisent leurs collections en Tunisie.",
+  s1t:"Développement produit",s1p:"De la première idée au produit prêt pour la production, nous accompagnons les marques à chaque étape du développement.",
+  s2t:"Sourcing tissus",s2p:"Identification et sourcing des tissus et matières selon la qualité, la composition, la performance, le prix et les exigences de production.",
+  s3t:"Sourcing fournitures & accessoires",s3p:"Boutons, fermetures, étiquettes, broderies, impressions, badges et autres composants du vêtement.",
+  s4t:"Patronage & développement technique",s4p:"Création de patrons, gradation, ajustements techniques et préparation des spécifications prêtes pour la production.",
+  s5t:"Échantillonnage & prototypage",s5p:"Développement de prototypes, échantillons de mise au point et pré-production pour valider le produit avant fabrication.",
+  s6t:"Coordination de production",s6p:"Coordination avec les partenaires de fabrication et suivi de chaque étape, de la confirmation de commande jusqu’à la finalisation.",
+  s7t:"Suivi qualité & production",s7p:"Suivi des exigences produit et de l’avancement de la production afin de maintenir la conformité avec les spécifications convenues.",
+  s8t:"Logistique & coordination locale",s8p:"Coordination entre les marques internationales, les fournisseurs et les partenaires de fabrication tunisiens.",
+  process_kicker:"Notre méthode",process_title:"De l’idée à la production.",process_lead:"Un processus structuré pour garder le développement produit clair, coordonné et efficace.",
+  p1t:"Comprendre",p1p:"Besoins, objectifs et spécifications du produit.",p2t:"Sourcer",p2p:"Tissus, fournitures, fournisseurs et partenaires.",
+  p3t:"Développer",p3p:"Patrons, détails techniques et prototypes.",p4t:"Échantillonner",p4p:"Validation des échantillons et de la pré-production.",
+  p5t:"Produire",p5p:"Coordination et suivi de la production.",p6t:"Livrer",p6p:"Coordination finale et soutien logistique.",
+  why_kicker:"Pourquoi AVSP",why_title:"Une expertise fondée sur le terrain textile.",why_lead:"Le parcours de Salma associe expertise commerciale, coordination de production et management de la qualité.",
+  w1t:"25+ sous-traitants",w1p:"Expérience dans la coordination d’un réseau de plus de 25 partenaires de production textile.",
+  w2t:"Coordination de production",w2p:"Expérience concrète du placement des commandes, de la coordination des ateliers, du suivi de fabrication et des délais.",
+  w3t:"Management de la qualité",w3p:"Formation et expérience dans l’accompagnement des entreprises en qualité, traçabilité et amélioration continue.",
+  w4t:"OEKO-TEX & ISO 9001",w4p:"Expérience dans l’accompagnement et la certification d’entreprises selon des référentiels qualité reconnus.",
+  fac_kicker:"Nos locaux",fac_title:"Un environnement professionnel pour collaborer.",
+  fac_p1:"Nos locaux offrent un cadre professionnel pour les réunions, les échanges produits, le développement et la coordination avec les clients et partenaires.",
+  fac_p2:"AVSP associe une présence locale à une approche structurée de la coordination de production internationale.",
+  contact_kicker:"Parlons de votre projet",contact_title:"Développons votre prochain produit.",
+  contact_lead:"Que vous développiez une nouvelle collection, recherchiez des tissus et fournitures ou souhaitiez une coordination de production en Tunisie, AVSP est à votre écoute.",
+  owner_role:"Fondatrice & Dirigeante",phone_label:"Téléphone / WhatsApp",location_title:"AVSP — Tunisie",location_link:"Voir notre localisation sur Google Maps",
+  form_service_placeholder:"Quel est votre besoin ?",footer_rights:"Tous droits réservés.",footer_services:"Développement produit • Sourcing • Échantillonnage • Coordination de production",
+  name:"Nom",company:"Entreprise",email:"E-mail",phone:"Téléphone",message:"Parlez-nous de votre projet...",send:"Envoyer la demande sur WhatsApp"
+ },
+ ar: {
+  topline:"تنسيق إنتاج المنسوجات والملابس",tunisia:"تونس",
+  nav_about:"من نحن",nav_services:"خدماتنا",nav_process:"مراحل العمل",nav_facilities:"مقرنا",nav_contact:"اتصل بنا",
+  founder_badge:"المؤسِسة والمديرة",legacy1t:"خبرة محلية",legacy1p:"معرفة بمنظومة النسيج والتصنيع في تونس وشركائها المحليين.",legacy2t:"مرافقة من البداية إلى النهاية",legacy2p:"دعم في تطوير المنتجات والتوريد والعمل التقني والعينات وتنسيق الإنتاج.",legacy3t:"التنسيق الدولي",legacy3p:"تواصل واضح بين العلامات التجارية الدولية والموردين وشركاء التصنيع في تونس.",legacy4t:"الاهتمام بالتفاصيل",legacy4p:"متابعة دقيقة للمواد والمواصفات والعينات ومتطلبات الإنتاج.",hero_eyebrow:"AVSP • تونس",hero_title:"منتجكم.<br>خبرتنا.",
+  hero_text:"من الفكرة إلى الإنتاج، ترافق AVSP علامات الأزياء الدولية في تطوير المنتجات، والتوريد، وإعداد العينات، وتنسيق الإنتاج في تونس.",
+  hero_btn_services:"اكتشف خدماتنا",hero_btn_contact:"تواصل مع AVSP",
+  about_kicker:"تعرّفوا على المؤسسة",about_title:"خبرة مبنية على العمل في قطاع النسيج.",
+  salma_role:"سلمى قروش — المؤسِسة والمديرة العامة لـ AVSP",
+  bio1:"بنت سلمى قروش مسيرتها المهنية في قطاع النسيج، حيث اكتسبت خبرة واسعة في تصنيع الملابس، وخاصة ملابس العمل، إضافة إلى تخصيص وطباعة المنسوجات، بما في ذلك الطباعة بالشاشة الحريرية والتطريز ومختلف تقنيات التخصيص.",
+  bio2:"بصفتها مسؤولة تجارية، عملت سلمى عن قرب مع العملاء المهنيين لفهم احتياجاتهم وتطوير مشاريع ملابس العمل المخصصة ومشاريع الوسم والطباعة على المنسوجات. وشملت مسؤولياتها تطوير المنتجات، واختيار المواد والإكسسوارات، ووضع الطلبات ومتابعتها بشكل مستمر.",
+  bio3:"كما أدارت منصة نسيجية تضم <strong>أكثر من 25 مقاولًا من الباطن</strong>، مما مكّنها من تطوير خبرة قوية في تنسيق الموردين، ووضع الطلبات، ومتابعة الإنتاج، وإدارة مختلف شركاء التصنيع.",
+  bio4:"ومن خلال هذه الخبرة، اكتسبت معرفة عملية بمختلف مراحل الإنتاج، بدءًا من التنسيق مع الورش ووضع الطلبات ومتابعتها، وصولًا إلى متابعة التصنيع ومراقبة الجودة واحترام المواعيد.",
+  bio5:"تشمل خبرتها أيضًا <strong>إدارة الجودة ومسؤولية RMQ</strong>. وقد رافقت وساعدت في اعتماد عدة شركات وفق معايير وأطر معترف بها، بما في ذلك <strong>OEKO-TEX وISO 9001</strong>. وتساعدها هذه الخبرة على دمج متطلبات الجودة، وإمكانية التتبع، والتحسين المستمر في المشاريع النسيجية التي تشرف عليها.",
+  bio6:"وعلى مر السنين، طورت سلمى فهمًا عميقًا لتوقعات العملاء المهنيين وواقع الإنتاج في قطاع النسيج، مع اهتمام خاص بالجودة، والتفاصيل، ووضع الطلبات، وسرعة الاستجابة، ورضا العملاء.",
+  bio7:"وقد دفعتها هذه الخبرة الميدانية إلى تأسيس <strong>AVSP</strong> بهدف تقديم مرافقة موثوقة وشخصية للعلامات والشركات في مشاريعها النسيجية، وطلبات الإنتاج، واحتياجاتها في مجال تخصيص وطباعة المنسوجات.",
+  bio8:"واليوم، تتمثل رؤيتها في بناء <strong>شراكات طويلة الأمد تقوم على الثقة، وسرعة الاستجابة، والشفافية، والخبرة التونسية في قطاع النسيج.</strong>",
+  signature_role:"المؤسِسة والمديرة العامة، AVSP",
+  leadership_kicker:"الإدارة",leadership_title:"AVSP بقيادة سلمى قروش",
+  leadership_text:"بناء علاقات موثوقة بين العلامات التجارية والموردين وشركاء التصنيع في تونس.",leadership_btn:"اعملوا مع AVSP",
+  services_kicker:"ماذا نقدم",services_title:"خدماتنا",services_lead:"مرافقة متكاملة للعلامات التجارية التي تطور وتصنع منتجاتها في تونس.",
+  s1t:"تطوير المنتجات",s1p:"من الفكرة الأولى إلى المنتج الجاهز للإنتاج، نرافق العلامات التجارية في جميع مراحل التطوير.",
+  s2t:"توريد الأقمشة",s2p:"نحدد ونوفر الأقمشة والمواد المناسبة وفق الجودة والتركيب والأداء والسعر ومتطلبات الإنتاج.",
+  s3t:"توريد الإكسسوارات واللوازم",s3p:"الأزرار، والسحابات، والملصقات، والتطريز، والطباعة، والشارات وغيرها من مكونات الملابس.",
+  s4t:"الباترون والتطوير التقني",s4p:"إعداد الباترونات، والتدريج، والتعديلات التقنية، وتجهيز المواصفات الجاهزة للإنتاج.",
+  s5t:"العينات والنماذج الأولية",s5p:"تطوير النماذج الأولية وعينات القياس وعينات ما قبل الإنتاج للتحقق من المنتج قبل التصنيع.",
+  s6t:"تنسيق الإنتاج",s6p:"ننسق مع شركاء التصنيع ونتابع كل مرحلة من تأكيد الطلب إلى اكتمال الإنتاج.",
+  s7t:"متابعة الجودة والإنتاج",s7p:"نتابع متطلبات المنتج وتقدم الإنتاج للمساعدة في الحفاظ على مطابقة المواصفات المتفق عليها.",
+  s8t:"اللوجستيك والتنسيق المحلي",s8p:"نسهّل التواصل والتنسيق بين العلامات التجارية الدولية والموردين وشركاء التصنيع في تونس.",
+  process_kicker:"كيف نعمل",process_title:"من الفكرة إلى الإنتاج.",process_lead:"منهجية منظمة تجعل تطوير المنتج واضحًا ومنسقًا وفعالًا.",
+  p1t:"الفهم",p1p:"متطلبات المنتج وأهدافه ومواصفاته.",p2t:"التوريد",p2p:"الأقمشة واللوازم والموردون والشركاء.",
+  p3t:"التطوير",p3p:"الباترونات والتفاصيل التقنية والنماذج الأولية.",p4t:"العينات",p4p:"التحقق من العينات وعينات ما قبل الإنتاج.",
+  p5t:"الإنتاج",p5p:"تنسيق ومتابعة عملية الإنتاج.",p6t:"التسليم",p6p:"التنسيق النهائي والدعم اللوجستي.",
+  why_kicker:"لماذا AVSP",why_title:"خبرة مبنية على واقع صناعة النسيج.",why_lead:"تجمع خبرة سلمى بين الخبرة التجارية وتنسيق الإنتاج وإدارة الجودة.",
+  w1t:"أكثر من 25 مقاولًا",w1p:"خبرة في تنسيق شبكة تضم أكثر من 25 شريكًا في إنتاج المنسوجات.",
+  w2t:"تنسيق الإنتاج",w2p:"خبرة عملية في وضع الطلبات وتنسيق الورش ومتابعة التصنيع والمواعيد.",
+  w3t:"إدارة الجودة",w3p:"تكوين وخبرة في مرافقة الشركات في الجودة وإمكانية التتبع والتحسين المستمر.",
+  w4t:"OEKO-TEX وISO 9001",w4p:"خبرة في مرافقة واعتماد الشركات وفق معايير وأطر جودة معترف بها.",
+  fac_kicker:"مقرنا",fac_title:"بيئة مهنية للتعاون.",
+  fac_p1:"توفر مرافقنا بيئة مهنية للاجتماعات ومناقشة المنتجات وأعمال التطوير والتنسيق مع العملاء والشركاء.",
+  fac_p2:"تجمع AVSP بين الحضور المحلي والمنهجية المنظمة لتنسيق الإنتاج الدولي.",
+  contact_kicker:"ابدأوا محادثة",contact_title:"لنطوّر منتجكم القادم.",
+  contact_lead:"سواء كنتم تطورون مجموعة جديدة، أو تبحثون عن الأقمشة واللوازم، أو تحتاجون إلى تنسيق الإنتاج في تونس، فإن AVSP جاهزة لمناقشة متطلباتكم.",
+  owner_role:"المؤسِسة والمديرة",phone_label:"الهاتف / واتساب",location_title:"AVSP — تونس",location_link:"شاهدوا موقعنا على خرائط Google",
+  form_service_placeholder:"ما الخدمة التي تبحثون عنها؟",footer_rights:"جميع الحقوق محفوظة.",footer_services:"تطوير المنتجات • التوريد • العينات • تنسيق الإنتاج",
+  name:"الاسم",company:"الشركة",email:"البريد الإلكتروني",phone:"الهاتف",message:"أخبرونا عن مشروعكم...",send:"إرسال الطلب عبر واتساب"
+ }
+};
+
+function applyLanguage(lang){
+ const t=translations[lang]||translations.en;
+ document.documentElement.lang=lang;
+ document.documentElement.dir = (lang === "ar") ? "rtl" : "ltr";
+ document.querySelectorAll("[data-i18n]").forEach(el=>{
+   const key=el.getAttribute("data-i18n");
+   if(t[key]!==undefined) el.innerHTML=t[key];
+ });
+ document.querySelectorAll("[data-ph]").forEach(el=>{
+   const key=el.getAttribute("data-ph");
+   if(t[key]) el.placeholder=t[key];
+ });
+ const sendBtn=document.querySelector('button[type="submit"]');
+ if(sendBtn) sendBtn.textContent=t.send;
+ document.querySelectorAll("[data-set-lang]").forEach(btn=>{
+   btn.classList.toggle("active",btn.dataset.setLang===lang);
+ });
+ localStorage.setItem("avspLanguage",lang);
+}
+
+document.querySelectorAll("[data-set-lang]").forEach(btn=>{
+ btn.addEventListener("click",()=>applyLanguage(btn.dataset.setLang));
+});
+const savedLanguage=localStorage.getItem("avspLanguage")||"en";
+applyLanguage(savedLanguage);
+
+</script>
+</body>
+</html>
